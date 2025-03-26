@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="stylesheet" href="estilo_menu_vertical.css">
+  <title>Contato - IFSP</title>
+</head>
+<body>
+  <div class="cabecalho">
+    <img src="imagens/logo.jpeg" alt="Logo IFSP" style="width: 150px; height: auto;">
+    <h1>Entre em Contato com o IFSP</h1>
+  </div>
+
+  <div class="menu">
+    <a href="index.html">Página Inicial</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="cursos.html">Cursos</a>
+    <a href="contato.html">Contato</a>
+  </div>
+
+  <div class="conteudo">
+    <h2>Fale Conosco</h2>
+    <p>
+      Estamos aqui para ajudar! Caso tenha dúvidas, sugestões ou precise de mais informações, entre em contato conosco pelos canais abaixo ou preencha o formulário.
+    </p>
+
+    <h3>Informações de Contato</h3>
+    <ul>
+      <li><b>Endereço:</b> Avenida Password, 777 - Horto-City, SP</li>
+      <li><b>Telefone:</b> (19) 1234-5678</li>
+      <li><b>Email:</b> contato@ifsp.edu.br</li>
+      <li><b>Horário de Atendimento:</b> Segunda a Sexta, das 8h às 18h</li>
+    </ul>
+
+    <h3>Formulário de Contato</h3>
+    <form action="enviar_contato.php" method="post">
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <div class="rodape">
+    <p>© 2025 Instituto Federal de São Paulo. Todos os direitos reservados.</p>
+    <p>Desenvolvido por João Gabriel</p>
+  </div>
+</body>
+</html>

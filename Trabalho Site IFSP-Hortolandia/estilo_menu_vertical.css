@@ -1,0 +1,68 @@
+body {
+    background-color: #f0f8ff;
+    text-align: center;
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cabecalho {
+    background-color: #0074cc;
+    padding: 20px;
+    color: white;
+    font-size: 28px;
+    text-align: left;
+  }
+  
+  .cabecalho img {
+    height: 50px;
+    vertical-align: middle;
+  }
+  
+  .menu {
+    max-width: 200px;
+    float: left;
+    margin-top: 30px;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 15px 20px;
+    margin: 10px 0;
+    background: linear-gradient(to right, #0074cc, #003f7f);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .menu a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .conteudo {
+    margin-left: 220px;
+    padding: 20px;
+    background: #eef4f7;
+    border-radius: 10px;
+    text-align: justify;
+  }
+  
+  .conteudo img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .rodape {
+    background-color: #003f7f;
+    color: white;
+    padding: 4px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+    
