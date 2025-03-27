@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre o IFSP</title>
+  <link rel="stylesheet" href="estilo_menu_vertical.css">
+  <style>
+    body {
+      font-family: "Roboto", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(180deg, #e6ffe6, #ccffcc); /* Fundo suave em tons de verde */
+    }
+
+    .conteudo {
+      margin: 30px auto;
+      max-width: 900px;
+      padding: 30px;
+      background: linear-gradient(135deg, #f0fff0, #e0ffe0); /* Gradiente suave em tons de verde claro */
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Sombra para destacar o conteúdo */
+      animation: fadeIn 1s ease-in-out; /* Animação ao carregar */
+    }
+
+    .conteudo h2, .conteudo h3 {
+      text-align: center;
+      color: #007f3f; /* Verde escuro */
+      margin-bottom: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .conteudo p {
+      text-align: justify;
+      line-height: 1.8;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .conteudo img {
+      display: block;
+      margin: 30px auto;
+      max-width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra para a imagem */
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .conteudo img:hover {
+      transform: scale(1.05); /* Leve aumento ao passar o mouse */
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Sombra mais intensa no hover */
+    }
+
+    .missao-visao {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .missao-visao div {
+      flex: 1 1 calc(50% - 20px);
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .missao-visao div:hover {
+      transform: scale(1.03); /* Leve aumento ao passar o mouse */
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra mais intensa no hover */
+    }
+
+    .missao-visao h3 {
+      text-align: center;
+      color: #007f3f; /* Verde escuro */
+      margin-bottom: 15px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    
+    .rodape {
+      background: linear-gradient(to right, #007f3f, #00b55e); /* Gradiente no rodapé */
+      color: white;
+      padding: 20px; /* Espaçamento maior para incluir os botões */
+      text-align: center;
+      font-size: 14px;
+      box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3); /* Sombra no topo do rodapé */
+      border-top: 4px solid #00a34a; /* Linha decorativa no topo do rodapé */
+    }
+
+    .rodape p {
+      margin: 5px 0;
+    }
+
+    .rodape .social-buttons {
+      margin-top: 10px;
+    }
+
+    .rodape .social-buttons a {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 15px;
+      background: white;
+      color: #007f3f; /* Verde escuro */
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s, color 0.3s, transform 0.3s;
+    }
+
+    .rodape .social-buttons a:hover {
+      background: #007f3f; /* Verde escuro */
+      color: white;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <header class="cabecalho">
+    <a href="index.html">
+      <img src="imagens/logo.jpeg" alt="Logo IFSP">
+    </a>
+    <h1>Sobre o IFSP</h1>
+  </header>
+
+  <nav class="menu">
+    <a href="index.html">Página Inicial</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="cursos.html">Cursos</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <main class="conteudo">
+    <h2>O que é o IFSP?</h2>
+    <p>O Instituto Federal de São Paulo (IFSP) é uma instituição pública de ensino que integra a Rede Federal de Educação Profissional, Científica e Tecnológica. Com uma trajetória marcada pela excelência, o IFSP oferece cursos técnicos, superiores e de pós-graduação, voltados para a formação de profissionais qualificados e cidadãos conscientes.</p>
+    <p>Além disso, a instituição promove o desenvolvimento social, econômico e cultural por meio de ações de ensino, pesquisa e extensão, sempre priorizando a inclusão, a inovação e a sustentabilidade. Com campi espalhados por diversas regiões do estado de São Paulo, o IFSP desempenha um papel fundamental na transformação da sociedade e no avanço do conhecimento.</p>
+    <img src="imagens/sobre.jpeg" alt="Foto do campus IFSP" style="width: 50%; height: auto;">
+
+    <div class="missao-visao">
+      <div>
+        <h3>Missão</h3>
+        <p>Promover a formação integral de profissionais éticos, competentes e comprometidos com a transformação da sociedade, por meio de uma educação pública, gratuita e de qualidade, que valorize a inclusão social, a inovação, a sustentabilidade e o desenvolvimento humano, contribuindo para o avanço científico, tecnológico e cultural do país.</p>
+      </div>
+      <div>
+        <h3>Visão</h3>
+        <p>Ser reconhecido nacional e internacionalmente como uma instituição de excelência em educação técnica, tecnológica e científica, promovendo a inclusão social, a inovação e o desenvolvimento sustentável, com foco na formação de cidadãos críticos, éticos e comprometidos com a transformação da sociedade.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; 2025 Instituto Federal de São Paulo. Todos os direitos reservados.</p>
+    <p>Desenvolvido por João Gabriel Bittencourt Boffo</p>
+    <div class="social-buttons">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+    </div>
+  </footer>
+</body>
+</html> 
